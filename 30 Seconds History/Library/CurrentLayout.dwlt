@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 887, y: 492}
   m_MaxSize: {x: 16012, y: 14042}
   vertical: 0
-  controlID: 28
+  controlID: 135
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -227,8 +227,8 @@ MonoBehaviour:
     y: 0
     width: 448
     height: 442
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -363,8 +363,8 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -113.625
-    m_HBaseRangeMax: 113.625
+    m_HBaseRangeMin: -222
+    m_HBaseRangeMax: 222
     m_VBaseRangeMin: -202
     m_VBaseRangeMax: 202
     m_HAllowExceedBaseRangeMin: 1
@@ -433,9 +433,9 @@ MonoBehaviour:
     height: 421
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8414ffff58defeffe0dcfeff4adbfeffd2d9fefff432fcff
-    m_LastClickedID: -249100
-    m_ExpandedIDs: 7ed3ffff88f4ffff00000000
+    m_SelectedIDs: 4c010000
+    m_LastClickedID: 0
+    m_ExpandedIDs: b4d3ffff82d4ffff24d7ffff30defffffedeffff98e1fffff8f0ffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -571,20 +571,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/MaterialUI
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/MaterialUI
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\guest_t0gyw3i\OneDrive\Documenten\30SecHistory\30SecHistory\30
-    Seconds History
+  m_LastProjectPath: C:\Users\guest_1lprefj\Documents\Github\30SecHistory\30 Seconds
+    History
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a6490000
-    m_LastClickedID: 18854
-    m_ExpandedIDs: 8629000000ca9a3bffffff7f
+    m_SelectedIDs: 6e2f0000
+    m_LastClickedID: 12142
+    m_ExpandedIDs: 000000006e2f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -612,7 +612,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 000000006e2f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1109,7 +1109,7 @@ MonoBehaviour:
     y: 92
     width: 400
     height: 710
-  m_ScrollPosition: {x: 0, y: 151.95508}
+  m_ScrollPosition: {x: 0, y: 165.95508}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 160
