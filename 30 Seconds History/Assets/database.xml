@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tijdvakken>
+  <tijdvak1>
+    <kenmerk>
+      <id>1</id>
+      <naam>Agrarisch</naam>
+    </kenmerk>
+    <kenmerk>
+      <id>2</id>
+      <naam>Cultuur/beschaving</naam>
+    </kenmerk>
+    <kenmerk>
+      <id>3</id>
+      <naam>Landbouwrevolutie</naam>
+    </kenmerk>
+    <kenmerk>
+      <id>4</id>
+      <naam>Stad</naam>
+    </kenmerk>
+    <kenmerk>
+      <id>5</id>
+      <naam>Landbouwstedelijke samenleving</naam>
+    </kenmerk>
+    <kenmerk>
+      <id>6</id>
+      <naam>Prehistorie</naam>
+    </kenmerk>
+    <kenmerk>
+      <id>7</id>
+      <naam>Nomaden</naam>
+    </kenmerk>
+    <kenmerk>
+      <id>8</id>
+      <naam>Farao</naam>
+    </kenmerk>
+    <kenmerk>
+      <id>9</id>
+      <naam>Nijverheid</naam>
+    </kenmerk>
+    <kenmerk>
+      <id>10</id>
+      <naam>Samenleving van Jagers/Verzamelaars</naam>
+    </kenmerk>
+  </tijdvak1>
+</tijdvakken>
