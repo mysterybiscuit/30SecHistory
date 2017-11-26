@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
-    public int timeLimit = 33;
+    public int timeLimit = 30;
 
     public float timePassed;
 
@@ -25,8 +26,6 @@ public class GameManager : MonoBehaviour {
     public Text[] textFields;
 
     public Toggle[] checkBoxes;
-
-    public Toggle[] checkBoxesEras;
 
     public bool[] checkBoxesChecked = new bool[5];
 
@@ -53,80 +52,95 @@ public class GameManager : MonoBehaviour {
 
     public Animator anim;
 
+    public PlayerSelectorManager psm;
+
     // Use this for initialization
     void Start () {
+        timeLeft = timeLimit;
+        timePassed = 0;
         if (unused == null || unused.Count == 0)
         {
             unused = terms1.ToList<Term>();
-            if (checkBoxesEras[0].isOn)
+            if (PlayerPrefs.GetInt("TV1") == 1)
             {
+                
                 foreach (Term term in terms1)
                 {
                     unused.Add(term);
                 }
+                Debug.Log("Loaded in Era 1");
             }
-            if (checkBoxesEras[1].isOn)
+            if (PlayerPrefs.GetInt("TV2") == 1)
             {
                 foreach (Term term in terms2)
                 {
                     unused.Add(term);
                 }
+                Debug.Log("Loaded in Era 2");
             }
-            if (checkBoxesEras[2].isOn)
+            if (PlayerPrefs.GetInt("TV3") == 1)
             {
                 foreach (Term term in terms3)
                 {
                     unused.Add(term);
                 }
+                Debug.Log("Loaded in Era 3");
             }
-            if (checkBoxesEras[3].isOn)
+            if (PlayerPrefs.GetInt("TV4") == 1)
             {
                 foreach (Term term in terms4)
                 {
                     unused.Add(term);
                 }
+                Debug.Log("Loaded in Era 4");
             }
-            if (checkBoxesEras[4].isOn)
+            if (PlayerPrefs.GetInt("TV5") == 1)
             {
                 foreach (Term term in terms5)
                 {
                     unused.Add(term);
                 }
+                Debug.Log("Loaded in Era 5");
             }
-            if (checkBoxesEras[5].isOn)
+            if (PlayerPrefs.GetInt("TV6") == 1)
             {
                 foreach (Term term in terms6)
                 {
                     unused.Add(term);
                 }
+                Debug.Log("Loaded in Era 6");
             }
-            if (checkBoxesEras[6].isOn)
+            if (PlayerPrefs.GetInt("TV7") == 1)
             {
                 foreach (Term term in terms7)
                 {
                     unused.Add(term);
                 }
+                Debug.Log("Loaded in Era 7");
             }
-            if (checkBoxesEras[7].isOn)
+            if (PlayerPrefs.GetInt("TV8") == 1)
             {
                 foreach (Term term in terms8)
                 {
                     unused.Add(term);
                 }
+                Debug.Log("Loaded in Era 8");
             }
-            if (checkBoxesEras[8].isOn)
+            if (PlayerPrefs.GetInt("TV9") == 1)
             {
                 foreach (Term term in terms9)
                 {
                     unused.Add(term);
                 }
+                Debug.Log("Loaded in Era 9");
             }
-            if (checkBoxesEras[9].isOn)
+            if (PlayerPrefs.GetInt("TV10") == 1)
             {
                 foreach (Term term in terms10)
                 {
                     unused.Add(term);
                 }
+                Debug.Log("Loaded in Era 10");
             }
         }
     }
@@ -146,9 +160,8 @@ public class GameManager : MonoBehaviour {
         }
         else if (timeLeft < 0)
         {
-            timeLeft = timeLimit;
-            timePassed = 0;
-            getRandomTerms();
+            //checkForUnchecked();
+            onTimeRunOut();
         }
         linearInterp = timePassed / timeLimit;
         //rectTrans.xMin += widthConstant;
@@ -227,5 +240,24 @@ public class GameManager : MonoBehaviour {
         }
         
     }
+
+    void onTimeRunOut()
+    {
+        SceneManager.LoadScene(5);
+    }
+
+    //void checkForUnchecked()
+    //{
+    //    for (int i = 0; i < currentTerms.Length; i++)
+    //    {
+    //        if (checkBoxesChecked[i] == false)
+    //        {
+    //            unused.Add(currentTerms[i]);
+    //            Debug.Log("Adding " + currentTerms[i].term + " Back to the mix.");
+    //        }
+    //    }
+        
+        
+    //}
 
 }
