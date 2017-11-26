@@ -50,8 +50,6 @@ public class GameManager : MonoBehaviour {
 
     private Term[] currentTerms = new Term[5];
 
-    private Animator animator;
-
     // Use this for initialization
     void Start () {
         if (unused == null || unused.Count == 0)
@@ -103,7 +101,6 @@ public class GameManager : MonoBehaviour {
     public void onStartButtonPressed()
     {
 
-        //animator.SetTrigger("startButtonPressed");
     }
 
     public void onGameButtonPressed()
