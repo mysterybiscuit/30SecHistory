@@ -16,8 +16,13 @@ public class AnimControllerMenu : MonoBehaviour {
 		
 	}
 
-    void onStartButtonPressed()
+    public void onStartButtonPressed()
     {
-        anim.Play("MenuToGame-Menu");
+        anim.Play("MenuToLevel-Menu");
+    }
+
+    public void onGameButtonPressed()
+    {
+        anim.Play("LevelToGame-Menu");
     }
 }

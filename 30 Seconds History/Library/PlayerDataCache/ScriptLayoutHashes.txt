@@ -18,7 +18,7 @@ d0d0d517e08adea21c80003566a42121 Assembly-CSharp.dll:MaterialUI.DialogProgress
 a206c4cf6b4f54b0fa8f8a65c8f17874 Assembly-CSharp.dll:.Example12
 998c570f84856acafa7bd7b04e94e163 Assembly-CSharp.dll:.AnimControllerGame
 45a8a807c2f69ce47753958213406f83 Assembly-CSharp.dll:MaterialUI.EmptyUIObjectInstantiationHelper
-64cf3944461a935500cb8deec2cf76df Assembly-CSharp.dll:.GameManager
+7ee3197972d1a92e9f1e1a4fdb4d99e5 Assembly-CSharp.dll:.GameManager
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button

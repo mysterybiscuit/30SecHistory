@@ -46,13 +46,13 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &1102477413392996786
+--- !u!1102 &1102414252492020638
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: MenuToGame-Game
+  m_Name: MenuToLevel-Game
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -80,11 +80,11 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-    m_State: {fileID: 1102477413392996786}
-    m_Position: {x: 300, y: 0, z: 0}
-  - serializedVersion: 1
     m_State: {fileID: 1102223804579441936}
     m_Position: {x: 305, y: 123, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102414252492020638}
+    m_Position: {x: 375, y: 253, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []

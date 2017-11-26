@@ -8,16 +8,21 @@ public class AnimControllerGame : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-		
-	}
+        anim = GetComponent<Animator>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
 		
 	}
 
-    void onStartButtonPressed()
+    public void onStartButtonPressed()
     {
-        anim.Play("MenuToGame-Game");
+        anim.Play("MenuTolevel-Game");
+    }
+
+    public void onGameButtonPressed()
+    {
+        anim.Play("LevelToGame-Game");
     }
 }
