@@ -306,7 +306,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 33265646}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -23.098755, y: -91.23999, z: 0}
+  m_LocalPosition: {x: -22.397797, y: -83.93999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2061568896}
@@ -314,7 +314,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -23.098751, y: -91.23999}
+  m_AnchoredPosition: {x: -22.397793, y: -83.93999}
   m_SizeDelta: {x: 128.41, y: 36.84}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &33265648
@@ -634,7 +634,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 127416657}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 67.9, y: -149.7, z: 0}
+  m_LocalPosition: {x: 68.60096, y: -139.10002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1971763188}
@@ -643,7 +643,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 67.9, y: -149.7}
+  m_AnchoredPosition: {x: 68.60096, y: -139.10002}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &127416659
@@ -1363,7 +1363,7 @@ GameObject:
   - component: {fileID: 206267068}
   - component: {fileID: 206267067}
   m_Layer: 5
-  m_Name: Checkbox (6)
+  m_Name: Era 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1381,7 +1381,7 @@ RectTransform:
   m_Children:
   - {fileID: 1969991709}
   m_Father: {fileID: 1580439153}
-  m_RootOrder: 28
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1519,7 +1519,7 @@ MonoBehaviour:
         m_Unicode: \ue88f
       m_Font: {fileID: 12800000, guid: a0a40789b9baa45a68c6d593e02f648a, type: 3}
   m_Label: Checkbox Off
-  m_LastToggleState: 0
+  m_LastToggleState: 1
   m_CheckImage: {fileID: 843360834}
   m_FrameImage: {fileID: 364085582}
 --- !u!114 &206267072
@@ -1577,7 +1577,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 0
+  m_IsOn: 1
 --- !u!1 &209228392
 GameObject:
   m_ObjectHideFlags: 0
@@ -1681,7 +1681,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 249906125}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.8009644, y: -149.7, z: 0}
+  m_LocalPosition: {x: -3.100006, y: -139.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1723165657}
@@ -1691,7 +1691,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -3.8009644, y: -149.7}
+  m_AnchoredPosition: {x: -3.1, y: -139.1}
   m_SizeDelta: {x: 83.4, y: -50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &249906127
@@ -1805,7 +1805,7 @@ GameObject:
   - component: {fileID: 272436436}
   - component: {fileID: 272436435}
   m_Layer: 5
-  m_Name: Checkbox (2)
+  m_Name: Era 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1961,7 +1961,7 @@ MonoBehaviour:
         m_Unicode: \ue88f
       m_Font: {fileID: 12800000, guid: a0a40789b9baa45a68c6d593e02f648a, type: 3}
   m_Label: Checkbox Off
-  m_LastToggleState: 0
+  m_LastToggleState: 1
   m_CheckImage: {fileID: 2000981470}
   m_FrameImage: {fileID: 1595721977}
 --- !u!114 &272436440
@@ -2019,7 +2019,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 0
+  m_IsOn: 1
 --- !u!1 &282464019
 GameObject:
   m_ObjectHideFlags: 0
@@ -2093,7 +2093,7 @@ GameObject:
   - component: {fileID: 308361775}
   - component: {fileID: 308361774}
   m_Layer: 5
-  m_Name: Checkbox (3)
+  m_Name: Era 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2249,7 +2249,7 @@ MonoBehaviour:
         m_Unicode: \ue88f
       m_Font: {fileID: 12800000, guid: a0a40789b9baa45a68c6d593e02f648a, type: 3}
   m_Label: Checkbox Off
-  m_LastToggleState: 0
+  m_LastToggleState: 1
   m_CheckImage: {fileID: 875179355}
   m_FrameImage: {fileID: 1395616746}
 --- !u!114 &308361779
@@ -2307,7 +2307,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 0
+  m_IsOn: 1
 --- !u!1 &310023182
 GameObject:
   m_ObjectHideFlags: 0
@@ -2355,7 +2355,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5411765}
+  m_Color: {r: 0, g: 0.5882353, b: 0.53333336, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2968,7 +2968,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5411765}
+  m_Color: {r: 0, g: 0.5882353, b: 0.53333336, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3125,7 +3125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5411765}
+  m_Color: {r: 0, g: 0.5882353, b: 0.53333336, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3485,7 +3485,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 24, y: 24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &466276316
 MonoBehaviour:
@@ -3499,7 +3499,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5411765}
+  m_Color: {r: 0, g: 0.5882353, b: 0.53333336, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3508,7 +3508,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: dcb678aff71bc544e91d4f2be1420503, type: 3}
-    m_FontSize: 0
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -3521,7 +3521,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: \uE901
   m_Size: 24
-  m_ScaledSize: 0
+  m_ScaledSize: 24
   m_SizeMode: 3
   m_MaterialUiScaler: {fileID: 1185341932}
   m_VectorImageData:
@@ -3550,7 +3550,7 @@ GameObject:
   - component: {fileID: 469015733}
   - component: {fileID: 469015732}
   m_Layer: 5
-  m_Name: Checkbox (4)
+  m_Name: Era 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3706,7 +3706,7 @@ MonoBehaviour:
         m_Unicode: \ue88f
       m_Font: {fileID: 12800000, guid: a0a40789b9baa45a68c6d593e02f648a, type: 3}
   m_Label: Checkbox Off
-  m_LastToggleState: 0
+  m_LastToggleState: 1
   m_CheckImage: {fileID: 1886118728}
   m_FrameImage: {fileID: 1945276952}
 --- !u!114 &469015737
@@ -3764,7 +3764,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 0
+  m_IsOn: 1
 --- !u!1 &490954730
 GameObject:
   m_ObjectHideFlags: 0
@@ -4270,7 +4270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5411765}
+  m_Color: {r: 0, g: 0.5882353, b: 0.53333336, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4535,7 +4535,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5411765}
+  m_Color: {r: 0, g: 0.5882353, b: 0.53333336, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4727,7 +4727,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 728116563}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -25.100014, y: -149.70001, z: 0}
+  m_LocalPosition: {x: -24.399055, y: -139.10004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2061568896}
@@ -4735,7 +4735,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -25.100014, y: -149.70001}
+  m_AnchoredPosition: {x: -24.399055, y: -139.10004}
   m_SizeDelta: {x: 128.41, y: 36.84}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &728116565
@@ -4935,7 +4935,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7ccac81bb699e0468c29833d16f1420, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLimit: 33
+  timeLimit: 5
   timePassed: 0
   timeLeft: 0
   linearInterp: 0
@@ -4960,6 +4960,17 @@ MonoBehaviour:
   - {fileID: 1441825370}
   - {fileID: 1018430982}
   - {fileID: 127416664}
+  checkBoxesEras:
+  - {fileID: 1883092437}
+  - {fileID: 1041323356}
+  - {fileID: 272436440}
+  - {fileID: 308361779}
+  - {fileID: 469015737}
+  - {fileID: 1831919184}
+  - {fileID: 1924230420}
+  - {fileID: 2060119617}
+  - {fileID: 206267072}
+  - {fileID: 2085434290}
   checkBoxesChecked: 0000000000
   beginColor: {r: 0, g: 0.5019608, b: 0, a: 1}
   terms1:
@@ -4973,15 +4984,196 @@ MonoBehaviour:
   - term: Farao
   - term: Nijverheid
   - term: Samenleving van Jagers/Verzamelaars
-  terms2: []
-  terms3: []
-  terms4: []
-  terms5: []
-  terms6: []
-  terms7: []
-  terms8: []
-  terms9: []
-  terms10: []
+  terms2:
+  - term: Burger
+  - term: Christendom
+  - term: Imperium
+  - term: Jodendom
+  - term: Klassiek
+  - term: "Monothe\xEFsme"
+  - term: Politiek
+  - term: Stadstaat
+  - term: Wetenschap
+  - term: Aristocratie
+  - term: Vormentaal
+  - term: Bijbel
+  - term: Burgeroorlog
+  - term: Diaspora
+  - term: Expansie
+  - term: Democratie
+  - term: Keizerrijk
+  - term: Filosoof
+  - term: Julius Caesar
+  - term: Martelaar
+  - term: Monarchie
+  - term: Orthodox
+  - term: Oudheid
+  - term: Pax Romana
+  - term: Republiek
+  - term: Zuil
+  - term: Volksverhuizing
+  - term: Tiran
+  - term: Barbaar
+  - term: Oligarchie
+  terms3:
+  - term: Autarkie
+  - term: Feodalisme
+  - term: Relikwie
+  - term: Ridder
+  - term: Schisma
+  - term: Hofstelsel
+  - term: Islam
+  - term: Abt
+  - term: Herendienst
+  - term: Klooster
+  - term: Horigheid
+  - term: Adel
+  - term: Ambt
+  - term: Rentmeester
+  - term: Sultan
+  - term: Leenheer
+  - term: Koran
+  - term: Tweezwaardenleer
+  - term: Paus
+  - term: Missionaris
+  - term: Dopen
+  - term: Domein
+  - term: Bisschop
+  - term: Profeet
+  - term: Kerstenen
+  terms4:
+  - term: Ambacht
+  - term: Kruistocht
+  - term: Centralisatie
+  - term: Karel de Grote
+  - term: Drieslagstelsel
+  - term: Gilde
+  - term: Heks
+  - term: Inquisitie
+  - term: Stadsrechten
+  - term: Specerij
+  - term: Ketter
+  - term: Privileges
+  - term: Tol
+  - term: Huursoldaat
+  - term: Kerkelijke Ban
+  terms5:
+  - term: Hervorming
+  - term: Opstand
+  - term: Protestant
+  - term: Renaissance
+  - term: Stadhouder
+  - term: Celibaat
+  - term: Aflaten
+  - term: Landvoogdes
+  - term: Reformatie
+  - term: Unie van Utrecht
+  terms6:
+  - term: Absolutisme
+  - term: Gouden Eeuw
+  - term: Stapelmarkt
+  - term: Factorij
+  - term: Wetenschappelijke Revolutie
+  - term: Monarchie
+  - term: Republiek
+  - term: Handelskapitalisme
+  - term: Godsdienstvrijheid
+  - term: Regent
+  terms7:
+  - term: Abolitionisme
+  - term: Democratische Revolutie
+  - term: Grondrechten
+  - term: Verlichting
+  - term: Slavernij
+  - term: "De\xEFsme"
+  - term: Grondwet
+  - term: Mensenrechten
+  - term: Soevereiniteit
+  - term: Rationalisme
+  - term: "Ancien R\xE9gime"
+  - term: Sociale Verhouding
+  - term: Staatsburger
+  - term: Trans-Atlantische Slavenhandel
+  - term: Verlicht Absolutisme
+  terms8:
+  - term: Confessionalisme
+  - term: Sociale Kwestie
+  - term: Schoolstrijd
+  - term: Natiestaat
+  - term: Burgerij
+  - term: Fabriek
+  - term: Conservatisme
+  - term: Censuskiesrecht
+  - term: Politieke Stroming
+  - term: Modern Imperialisme
+  - term: Democratisering
+  - term: Emancipatiebeweging
+  - term: "Industri\xEBle Revolutie"
+  - term: Liberalisme
+  - term: Nationalisme
+  - term: Districtenstelsel
+  - term: Mogendheid
+  - term: Nachtwakersstaat
+  - term: Parlementair Stelsel
+  - term: Invloedssfeer
+  - term: Algemeen Kiesrecht
+  - term: Agrarische Revolutie
+  - term: Mechanisme
+  - term: Feminisme
+  - term: Socialisme
+  terms9:
+  - term: Antisemitisme
+  - term: Massavernietigingswapens
+  - term: Getto
+  - term: Annexatie
+  - term: Collaboratie
+  - term: Autonomie
+  - term: Bezetting
+  - term: Communicatiemiddelen
+  - term: Totalitarisme
+  - term: "Ge\xE4llieerden"
+  - term: Centralen
+  - term: Eenpartijstaat
+  - term: Loopgraaf
+  - term: Gelijkschakelen
+  - term: Front
+  - term: Fascisme
+  - term: Discriminatie
+  - term: Wereldoorlog
+  - term: Annexatie
+  - term: Appeasement
+  - term: Nationaal-socialisme
+  - term: Propaganda
+  - term: Genocide
+  - term: "Endl\xF6sung"
+  - term: Massavernietigingswapens
+  - term: Crisis
+  - term: Communisme
+  - term: Asmogendheden
+  - term: Censuur
+  - term: Interbellum
+  terms10:
+  - term: Atoomoorlog
+  - term: Blokvorming
+  - term: Automatisering
+  - term: Supermacht
+  - term: Ijzeren Gordijn
+  - term: Dekolonisatie
+  - term: Europese Unie
+  - term: Multi-culturele Samenleving
+  - term: Politionele Acties
+  - term: Hegemonie
+  - term: Pluriforme Samenleving
+  - term: Koude Oorlog
+  - term: Informatiemaatschappij
+  - term: Containmentpolitiek
+  - term: Wapenwedloop
+  - term: Oostblok
+  - term: Derde Wereld Land
+  - term: Consumptiemaatschappij
+  - term: Marshallhulp
+  - term: Verenigde Naties
+  anim: {fileID: 0}
 --- !u!4 &758317582
 Transform:
   m_ObjectHideFlags: 0
@@ -5583,7 +5775,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 24, y: 24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &843360834
 MonoBehaviour:
@@ -5597,7 +5789,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5411765}
+  m_Color: {r: 0, g: 0.5882353, b: 0.53333336, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -5606,7 +5798,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: dcb678aff71bc544e91d4f2be1420503, type: 3}
-    m_FontSize: 0
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -5619,7 +5811,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: \uE901
   m_Size: 24
-  m_ScaledSize: 0
+  m_ScaledSize: 24
   m_SizeMode: 3
   m_MaterialUiScaler: {fileID: 1185341932}
   m_VectorImageData:
@@ -5724,7 +5916,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 24, y: 24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &875179355
 MonoBehaviour:
@@ -5738,7 +5930,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5411765}
+  m_Color: {r: 0, g: 0.5882353, b: 0.53333336, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -5747,7 +5939,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: dcb678aff71bc544e91d4f2be1420503, type: 3}
-    m_FontSize: 0
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -5760,7 +5952,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: \uE901
   m_Size: 24
-  m_ScaledSize: 0
+  m_ScaledSize: 24
   m_SizeMode: 3
   m_MaterialUiScaler: {fileID: 1185341932}
   m_VectorImageData:
@@ -6345,7 +6537,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 919937983}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2065327670}
@@ -7192,7 +7384,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1018430975}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 69.90126, y: -90.33998, z: 0}
+  m_LocalPosition: {x: 70.60222, y: -83.03998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2048977244}
@@ -7201,7 +7393,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 69.90126, y: -90.33998}
+  m_AnchoredPosition: {x: 70.60222, y: -83.03998}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1018430977
@@ -7409,7 +7601,7 @@ GameObject:
   - component: {fileID: 1041323352}
   - component: {fileID: 1041323351}
   m_Layer: 5
-  m_Name: Checkbox (1)
+  m_Name: Era 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7565,7 +7757,7 @@ MonoBehaviour:
         m_Unicode: \ue88f
       m_Font: {fileID: 12800000, guid: a0a40789b9baa45a68c6d593e02f648a, type: 3}
   m_Label: Checkbox Off
-  m_LastToggleState: 0
+  m_LastToggleState: 1
   m_CheckImage: {fileID: 1136941417}
   m_FrameImage: {fileID: 2057730714}
 --- !u!114 &1041323356
@@ -7623,7 +7815,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 0
+  m_IsOn: 1
 --- !u!1 &1068518553
 GameObject:
   m_ObjectHideFlags: 0
@@ -8046,7 +8238,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 24, y: 24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1136941417
 MonoBehaviour:
@@ -8060,7 +8252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5411765}
+  m_Color: {r: 0, g: 0.5882353, b: 0.53333336, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -8069,7 +8261,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: dcb678aff71bc544e91d4f2be1420503, type: 3}
-    m_FontSize: 0
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -8082,7 +8274,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: \uE901
   m_Size: 24
-  m_ScaledSize: 0
+  m_ScaledSize: 24
   m_SizeMode: 3
   m_MaterialUiScaler: {fileID: 1185341932}
   m_VectorImageData:
@@ -8710,7 +8902,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1185341931}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 111, y: 197, z: 0}
+  m_LocalPosition: {x: 113.5, y: 202, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 919937984}
@@ -9258,7 +9450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5411765}
+  m_Color: {r: 0, g: 0.5882353, b: 0.53333336, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -9968,7 +10160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5411765}
+  m_Color: {r: 0, g: 0.5882353, b: 0.53333336, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -10012,7 +10204,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1411144277}
-  - component: {fileID: 1411144279}
+  - component: {fileID: 1411144278}
   m_Layer: 5
   m_Name: Screen
   m_TagString: Untagged
@@ -10041,7 +10233,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!95 &1411144279
+--- !u!95 &1411144278
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -10543,7 +10735,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 24, y: 24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1444070633
 MonoBehaviour:
@@ -10557,7 +10749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5411765}
+  m_Color: {r: 0, g: 0.5882353, b: 0.53333336, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -10566,7 +10758,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: dcb678aff71bc544e91d4f2be1420503, type: 3}
-    m_FontSize: 0
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -10579,7 +10771,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: \uE901
   m_Size: 24
-  m_ScaledSize: 0
+  m_ScaledSize: 24
   m_SizeMode: 3
   m_MaterialUiScaler: {fileID: 1185341932}
   m_VectorImageData:
@@ -10701,7 +10893,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1449599612}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.7996826, y: -90, z: 0}
+  m_LocalPosition: {x: -1.0987244, y: -82.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 465658232}
@@ -10711,7 +10903,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.7996826, y: -90}
+  m_AnchoredPosition: {x: -1.0987244, y: -82.7}
   m_SizeDelta: {x: 83.4, y: -50.68}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1449599614
@@ -10921,6 +11113,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1580439153}
+  - component: {fileID: 1580439154}
   m_Layer: 5
   m_Name: LevelSelector
   m_TagString: Untagged
@@ -10966,9 +11159,9 @@ RectTransform:
   - {fileID: 1725252314}
   - {fileID: 550070315}
   - {fileID: 1831919178}
-  - {fileID: 206267066}
   - {fileID: 1924230414}
   - {fileID: 2060119611}
+  - {fileID: 206267066}
   - {fileID: 2085434284}
   m_Father: {fileID: 1411144277}
   m_RootOrder: 1
@@ -10978,6 +11171,23 @@ RectTransform:
   m_AnchoredPosition: {x: 230, y: 0}
   m_SizeDelta: {x: -6, y: -10}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1580439154
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1580439152}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ccdb07cc9d782114fb1233041deb73fe, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1590263769
 GameObject:
   m_ObjectHideFlags: 0
@@ -11179,7 +11389,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1411144279}
+      - m_Target: {fileID: 1411144278}
         m_MethodName: Play
         m_Mode: 5
         m_Arguments:
@@ -11187,7 +11397,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: MainToLevel
+          m_StringArgument: MainToGame
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -11239,7 +11449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5411765}
+  m_Color: {r: 0, g: 0.5882353, b: 0.53333336, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -11308,7 +11518,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 24, y: 24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1602170003
 MonoBehaviour:
@@ -11322,7 +11532,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5411765}
+  m_Color: {r: 0, g: 0.5882353, b: 0.53333336, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -11331,7 +11541,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: dcb678aff71bc544e91d4f2be1420503, type: 3}
-    m_FontSize: 0
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -11344,7 +11554,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: \uE901
   m_Size: 24
-  m_ScaledSize: 0
+  m_ScaledSize: 24
   m_SizeMode: 3
   m_MaterialUiScaler: {fileID: 1185341932}
   m_VectorImageData:
@@ -11902,7 +12112,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1411144279}
+      - m_Target: {fileID: 1411144278}
         m_MethodName: Play
         m_Mode: 5
         m_Arguments:
@@ -11910,7 +12120,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: LevelToGame
+          m_StringArgument: MainToGame
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -12619,7 +12829,7 @@ GameObject:
   - component: {fileID: 1831919180}
   - component: {fileID: 1831919179}
   m_Layer: 5
-  m_Name: Checkbox (5)
+  m_Name: Era 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12775,7 +12985,7 @@ MonoBehaviour:
         m_Unicode: \ue88f
       m_Font: {fileID: 12800000, guid: a0a40789b9baa45a68c6d593e02f648a, type: 3}
   m_Label: Checkbox Off
-  m_LastToggleState: 0
+  m_LastToggleState: 1
   m_CheckImage: {fileID: 466276316}
   m_FrameImage: {fileID: 310023184}
 --- !u!114 &1831919184
@@ -12833,7 +13043,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 0
+  m_IsOn: 1
 --- !u!1 &1871665163
 GameObject:
   m_ObjectHideFlags: 0
@@ -13017,7 +13227,7 @@ GameObject:
   - component: {fileID: 1883092433}
   - component: {fileID: 1883092432}
   m_Layer: 5
-  m_Name: Checkbox
+  m_Name: Era 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13173,7 +13383,7 @@ MonoBehaviour:
         m_Unicode: \ue88f
       m_Font: {fileID: 12800000, guid: a0a40789b9baa45a68c6d593e02f648a, type: 3}
   m_Label: Checkbox Off
-  m_LastToggleState: 0
+  m_LastToggleState: 1
   m_CheckImage: {fileID: 1602170003}
   m_FrameImage: {fileID: 373620574}
 --- !u!114 &1883092437
@@ -13231,7 +13441,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 0
+  m_IsOn: 1
 --- !u!1 &1886118726
 GameObject:
   m_ObjectHideFlags: 0
@@ -13265,7 +13475,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 24, y: 24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1886118728
 MonoBehaviour:
@@ -13279,7 +13489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5411765}
+  m_Color: {r: 0, g: 0.5882353, b: 0.53333336, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -13288,7 +13498,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: dcb678aff71bc544e91d4f2be1420503, type: 3}
-    m_FontSize: 0
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -13301,7 +13511,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: \uE901
   m_Size: 24
-  m_ScaledSize: 0
+  m_ScaledSize: 24
   m_SizeMode: 3
   m_MaterialUiScaler: {fileID: 1185341932}
   m_VectorImageData:
@@ -13438,7 +13648,7 @@ GameObject:
   - component: {fileID: 1924230416}
   - component: {fileID: 1924230415}
   m_Layer: 5
-  m_Name: Checkbox (7)
+  m_Name: Era 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13456,7 +13666,7 @@ RectTransform:
   m_Children:
   - {fileID: 1604842494}
   m_Father: {fileID: 1580439153}
-  m_RootOrder: 29
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -13594,7 +13804,7 @@ MonoBehaviour:
         m_Unicode: \ue88f
       m_Font: {fileID: 12800000, guid: a0a40789b9baa45a68c6d593e02f648a, type: 3}
   m_Label: Checkbox Off
-  m_LastToggleState: 0
+  m_LastToggleState: 1
   m_CheckImage: {fileID: 1444070633}
   m_FrameImage: {fileID: 1258137003}
 --- !u!114 &1924230420
@@ -13652,7 +13862,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 0
+  m_IsOn: 1
 --- !u!1 &1934417366
 GameObject:
   m_ObjectHideFlags: 0
@@ -13873,7 +14083,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5411765}
+  m_Color: {r: 0, g: 0.5882353, b: 0.53333336, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -14055,7 +14265,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 24, y: 24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1946026328
 MonoBehaviour:
@@ -14069,7 +14279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5411765}
+  m_Color: {r: 0, g: 0.5882353, b: 0.53333336, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -14078,7 +14288,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: dcb678aff71bc544e91d4f2be1420503, type: 3}
-    m_FontSize: 0
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -14091,7 +14301,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: \uE901
   m_Size: 24
-  m_ScaledSize: 0
+  m_ScaledSize: 24
   m_SizeMode: 3
   m_MaterialUiScaler: {fileID: 1185341932}
   m_VectorImageData:
@@ -14556,7 +14766,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 24, y: 24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2000981470
 MonoBehaviour:
@@ -14570,7 +14780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5411765}
+  m_Color: {r: 0, g: 0.5882353, b: 0.53333336, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -14579,7 +14789,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: dcb678aff71bc544e91d4f2be1420503, type: 3}
-    m_FontSize: 0
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -14592,7 +14802,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: \uE901
   m_Size: 24
-  m_ScaledSize: 0
+  m_ScaledSize: 24
   m_SizeMode: 3
   m_MaterialUiScaler: {fileID: 1185341932}
   m_VectorImageData:
@@ -14939,7 +15149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5411765}
+  m_Color: {r: 0, g: 0.5882353, b: 0.53333336, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -14990,7 +15200,7 @@ GameObject:
   - component: {fileID: 2060119613}
   - component: {fileID: 2060119612}
   m_Layer: 5
-  m_Name: Checkbox (8)
+  m_Name: Era 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15008,7 +15218,7 @@ RectTransform:
   m_Children:
   - {fileID: 1871665164}
   m_Father: {fileID: 1580439153}
-  m_RootOrder: 30
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -15146,7 +15356,7 @@ MonoBehaviour:
         m_Unicode: \ue88f
       m_Font: {fileID: 12800000, guid: a0a40789b9baa45a68c6d593e02f648a, type: 3}
   m_Label: Checkbox Off
-  m_LastToggleState: 0
+  m_LastToggleState: 1
   m_CheckImage: {fileID: 2134534599}
   m_FrameImage: {fileID: 565688470}
 --- !u!114 &2060119617
@@ -15204,7 +15414,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 0
+  m_IsOn: 1
 --- !u!1 &2061568895
 GameObject:
   m_ObjectHideFlags: 0
@@ -15412,7 +15622,7 @@ GameObject:
   - component: {fileID: 2085434286}
   - component: {fileID: 2085434285}
   m_Layer: 5
-  m_Name: Checkbox (9)
+  m_Name: Era 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15568,7 +15778,7 @@ MonoBehaviour:
         m_Unicode: \ue88f
       m_Font: {fileID: 12800000, guid: a0a40789b9baa45a68c6d593e02f648a, type: 3}
   m_Label: Checkbox Off
-  m_LastToggleState: 0
+  m_LastToggleState: 1
   m_CheckImage: {fileID: 1946026328}
   m_FrameImage: {fileID: 679400893}
 --- !u!114 &2085434290
@@ -15626,7 +15836,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 0
+  m_IsOn: 1
 --- !u!1 &2088498898
 GameObject:
   m_ObjectHideFlags: 0
@@ -15925,7 +16135,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 24, y: 24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2134534599
 MonoBehaviour:
@@ -15939,7 +16149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5411765}
+  m_Color: {r: 0, g: 0.5882353, b: 0.53333336, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -15948,7 +16158,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: dcb678aff71bc544e91d4f2be1420503, type: 3}
-    m_FontSize: 0
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -15961,7 +16171,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: \uE901
   m_Size: 24
-  m_ScaledSize: 0
+  m_ScaledSize: 24
   m_SizeMode: 3
   m_MaterialUiScaler: {fileID: 1185341932}
   m_VectorImageData:

@@ -26,6 +26,8 @@ public class GameManager : MonoBehaviour {
 
     public Toggle[] checkBoxes;
 
+    public Toggle[] checkBoxesEras;
+
     public bool[] checkBoxesChecked = new bool[5];
 
     public Color beginColor;
@@ -46,31 +48,88 @@ public class GameManager : MonoBehaviour {
     public Term[] terms10;
 
     private static List<Term> unused = new List<Term>();
-    private static List<int> chosenTimes = new List<int>();
 
     private Term[] currentTerms = new Term[5];
+
+    public Animator anim;
 
     // Use this for initialization
     void Start () {
         if (unused == null || unused.Count == 0)
         {
             unused = terms1.ToList<Term>();
-            //if (chosenTimes.Contains(1))
-            //{
-            //    foreach (Term term in terms1)
-            //    {
-            //        unused.Add(term);
-            //    }
-            //}
-            //if (chosenTimes.Contains(2))
-            //{
-            //    foreach (Term term in terms2)
-            //    {
-            //        unused.Add(term);
-            //    }
-            //}
+            if (checkBoxesEras[0].isOn)
+            {
+                foreach (Term term in terms1)
+                {
+                    unused.Add(term);
+                }
+            }
+            if (checkBoxesEras[1].isOn)
+            {
+                foreach (Term term in terms2)
+                {
+                    unused.Add(term);
+                }
+            }
+            if (checkBoxesEras[2].isOn)
+            {
+                foreach (Term term in terms3)
+                {
+                    unused.Add(term);
+                }
+            }
+            if (checkBoxesEras[3].isOn)
+            {
+                foreach (Term term in terms4)
+                {
+                    unused.Add(term);
+                }
+            }
+            if (checkBoxesEras[4].isOn)
+            {
+                foreach (Term term in terms5)
+                {
+                    unused.Add(term);
+                }
+            }
+            if (checkBoxesEras[5].isOn)
+            {
+                foreach (Term term in terms6)
+                {
+                    unused.Add(term);
+                }
+            }
+            if (checkBoxesEras[6].isOn)
+            {
+                foreach (Term term in terms7)
+                {
+                    unused.Add(term);
+                }
+            }
+            if (checkBoxesEras[7].isOn)
+            {
+                foreach (Term term in terms8)
+                {
+                    unused.Add(term);
+                }
+            }
+            if (checkBoxesEras[8].isOn)
+            {
+                foreach (Term term in terms9)
+                {
+                    unused.Add(term);
+                }
+            }
+            if (checkBoxesEras[9].isOn)
+            {
+                foreach (Term term in terms10)
+                {
+                    unused.Add(term);
+                }
+            }
         }
-	}
+    }
 	
     void Update()
     {
@@ -100,7 +159,7 @@ public class GameManager : MonoBehaviour {
 
     public void onStartButtonPressed()
     {
-
+        onGameButtonPressed();
     }
 
     public void onGameButtonPressed()
