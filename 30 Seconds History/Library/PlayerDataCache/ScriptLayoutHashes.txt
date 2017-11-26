@@ -16,9 +16,8 @@ af723155c251fcfa0e66530a75f3ea4c UnityEngine.Timeline.dll:UnityEngine.Timeline.T
 d0d0d517e08adea21c80003566a42121 Assembly-CSharp.dll:MaterialUI.DialogProgress
 5a47cabc109d3b6d578a800b7207cdce Assembly-CSharp.dll:MaterialUI.MaterialUIScaler
 a206c4cf6b4f54b0fa8f8a65c8f17874 Assembly-CSharp.dll:.Example12
-998c570f84856acafa7bd7b04e94e163 Assembly-CSharp.dll:.AnimControllerGame
 45a8a807c2f69ce47753958213406f83 Assembly-CSharp.dll:MaterialUI.EmptyUIObjectInstantiationHelper
-64cf3944461a935500cb8deec2cf76df Assembly-CSharp.dll:.GameManager
+ac205ecb77f5b682cb02bb5f5f6e4147 Assembly-CSharp.dll:.GameManager
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -218,4 +217,9 @@ f5219d530b413c73a462ea490c3ed099 Assembly-CSharp.dll:MaterialUI.ShadowGenerator
 a2ea319cb25ea041b4805917b52507a2 Assembly-CSharp.dll:MaterialUI.MaterialCheckbox
 e489ef30bcf265cb03345d3149e3dcad Assembly-CSharp.dll:MaterialUI.ProgressIndicator
 24a248870242f769ef6b0db3a06e5a0a Assembly-CSharp.dll:MaterialUI.DialogTimePicker
-998c570f84856acafa7bd7b04e94e163 Assembly-CSharp.dll:.AnimControllerMenu
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MenuManager
+2e680190ac6123d75fa4f1440250ff3e Assembly-CSharp.dll:.LevelManager
+16733f6115461e8ab4dd5d13cbdbfab7 Assembly-CSharp.dll:.PlayerManager
+aeee8eb5ff82ffe4ce7d277bd21d4950 Assembly-CSharp.dll:.ScoreManager
+3ef036c45db3df37c1ad0ad940e93d75 Assembly-CSharp.dll:.PlayerSelectorManager
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AboutManager

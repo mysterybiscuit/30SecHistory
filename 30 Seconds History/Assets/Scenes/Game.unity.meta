@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 057f54d4d6c99734ebcd69e8d2274661
 timeCreated: 1511700365
+=======
+guid: 8286c0cff3d1b7d498131a07ea44c06c
+timeCreated: 1511725745
+>>>>>>> AnimationRepair
 licenseType: Free
 DefaultImporter:
   externalObjects: {}
